@@ -1,0 +1,17 @@
+.AppBar {
+  background: #e3e8e9;
+  border-bottom: 1px solid rgb(210, 210, 210);
+  color: #1a2e3b;
+  padding: 14px 15px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+}
+
+.AppBar__title {
+  display: inline-flex;
+  font-size: 18px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 0;
+}

@@ -1,0 +1,15 @@
+.Content {
+  background: #f6f7f8;
+  height: 100%;
+  left: 270px;
+  position: absolute;
+  width: calc(100% - 270px);
+}
+
+.Content__container {
+  margin: 0 auto;
+  position: relative;
+  padding: 15px;
+  top: 50px;
+  z-index: 0;
+}

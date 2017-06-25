@@ -1,0 +1,34 @@
+.ClipListing {
+  background: #f6f7f8;
+  border: 1px solid transparent;
+  box-shadow: 2px 2px 15px rgba(0,0,0,.2);
+  float: left;
+  margin: 0 15px 15px 0;
+  transform: translate3d(0,0,0);
+  transition: .2s;
+}
+
+.ClipListing:hover {
+  border: 1px solid #00adef;
+  transform: scale(1.03) translateZ(0);
+}
+
+.ClipListing:active {
+  border: 1px solid #7fc400;
+}
+
+.ClipListing__link {
+  color: #0088cc;
+  text-decoration: none;
+}
+
+.ClipListing__picture {
+  display: block;
+}
+
+.ClipListing__title {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 10px 0;
+  text-align: center;
+}

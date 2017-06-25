@@ -1,0 +1,32 @@
+.Nav {
+  background: #e3e8e9;
+  border-right: 1px solid rgb(210, 210, 210);
+  color: #1a2e3b;
+  height: 100%;
+  position: fixed;
+  z-index: 3;
+  width: 269px;
+}
+
+.Nav__links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Nav__link {
+  color: #1a2e3b;
+  display: block;
+  padding: 7px 15px;
+  text-decoration: none;
+}
+
+.Nav__link:hover,
+.Nav__link--active {
+  background: #00adef;
+  color: #fff;
+}
+
+.Nav__link:hover {
+  cursor: pointer;
+}

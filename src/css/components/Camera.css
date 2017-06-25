@@ -1,0 +1,15 @@
+.Camera__player-container {
+  background: #000;
+  margin: -15px -15px 10px -15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.Camera__player {
+  display: block;
+  margin: 0 auto;
+}
+
+.Camera__recorder-container {
+  text-align: center;
+}

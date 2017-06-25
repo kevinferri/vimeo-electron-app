@@ -1,0 +1,22 @@
+.SearchBar {
+  border: 1px solid #e3e8e9;
+  border-radius: 3px;
+  box-sizing: border-box;
+  font-size: 14px;
+  margin: -6px 0 -8px 10px;
+  outline: none;
+  padding: 6px 8px;
+  width: 200px;
+}
+
+.SearchBar:hover,
+.SearchBar:focus {
+  border: 1px solid #00adef;
+  -webkit-transition: border 500ms ease-out;
+  transition: border 500ms ease-out;
+}
+
+.SearchBar--full-width {
+  display: block;
+  width: 100%;
+}
